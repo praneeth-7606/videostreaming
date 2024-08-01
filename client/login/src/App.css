@@ -1,0 +1,133 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 4px;
+  font-style: normal;
+}
+
+body{
+ /* color: red; */
+ /* background-color: aqua; */
+}
+.App{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.hi{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+
+}
+
+.navbar-link:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 4px;
+  font-style: normal;
+}
+
+body{
+ /* color: red; */
+ /* background-color: aqua; */
+}
+.App{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.hi{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+
+}
+
+.navbar-link:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+.sidebar-toggle {
+  font-size: 2rem;
+  color:green;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.sidebar-items {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-items li {
+  padding: 10px;
+}
+
+.sidebar-items li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+.bg-light {
+  background-color:red;
+  /* color: aqua; Light gray background color */
+}
+
+.p-2 {
+  padding: 0.5rem 1rem; /* Vertical padding of 0.5rem and horizontal padding of 1rem */
+}
+
+.border {
+  border: 1px solid #dee2e6; /* 1px solid border with a light gray color */
+}
+
+.rounded {
+  border-radius: 0.25rem; /* Rounded corners with a radius of 0.25rem */
+}
+
+
+.instagram-link:hover{
+  opacity: 0.7;
+  color: green;
+  transition: opacity 0.3s ease;
+  transform: rotate(90deg);
+  /* box-shadow: 14px 4px 4px rgba(255, 68, 0, 0.611) */
+
+}
+
+
+.cont{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* height: 100vh; Full height of the viewport */
+}
